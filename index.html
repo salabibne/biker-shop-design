@@ -53,7 +53,7 @@
                       
                     </ul>
                   </div>
-                  <a class="btn btn-ghost normal-case text-4xl">Biker Zone</a>
+                  <a class="btn btn-ghost normal-case text-1xl lg:text-4xl">Biker Zone</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu text-base menu-horizontal px-1">
@@ -74,9 +74,22 @@
         </nav>
 
         <!-- slider or carousel-->
-        <div class="carousel w-full bg-bike-primary-bg">
+        <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg">
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="/images//slider/bike1.png" class="w-full" />
+            <div class="flex flex-col lg:flex-row p-4 lg:p-24">
+              <div class="space-y-7 flex-1">
+                <h1 class=" text-2xl lg:text-6xl font-bold">
+                  Ride-on R15 V4 <br>with Smile
+                </h1>
+                <p>Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+
+                  <button class="btn bg-primary text-white">purchase</button>
+              </div>
+              <div class="flex-1">
+                <img src="/images//slider/bike1.png" class="w-[400px]" />
+              </div>
+            </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide4" class="btn btn-circle">❮</a> 
               <a href="#slide2" class="btn btn-circle">❯</a>
